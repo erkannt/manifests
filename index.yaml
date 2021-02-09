@@ -3,9 +3,9 @@ entries:
   oauth2-proxy:
   - apiVersion: v1
     appVersion: 5.1.0
-    created: "2021-02-09T08:37:03.191706708Z"
+    created: "2021-02-09T08:47:56.82561368Z"
     description: A reverse proxy that provides authentication with Google, Github or other providers
-    digest: f3f3c04853552377d1359eb288d5d84a1dd83628b458049b81c39f08155bfbb3
+    digest: 495e5233afbfcd1a76916f15d0106badf4bc99cf4b6dc571f4c9d20671f3af69
     home: https://oauth2-proxy.github.io/oauth2-proxy/
     keywords:
     - kubernetes
@@ -24,6 +24,6 @@ entries:
     - https://github.com/oauth2-proxy/oauth2-proxy
     - https://github.com/oauth2-proxy/manifests
     urls:
-    - https://github.com/erkannt/manifests/releases/download/oauth2-proxy-3.2.1/oauth2-proxy-3.2.1.tgz
-    version: 3.2.1
-generated: "2021-02-09T08:37:03.044721197Z"
+    - https://github.com/erkannt/manifests/releases/download/oauth2-proxy-3.2.2/oauth2-proxy-3.2.2.tgz
+    version: 3.2.2
+generated: "2021-02-09T08:47:56.71907795Z"
