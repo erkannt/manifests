@@ -14,7 +14,7 @@ metadata:
     app: {{ template "oauth2-proxy.name" . }}
     chart: {{ template "oauth2-proxy.chart" . }}
     heritage: {{ .Release.Service }}
-    release: {{ .Release.Name }}
+    release: {{ .Release.Name }}-test
   name: {{ template "oauth2-proxy.fullname" . }}
 {{- with .Values.ingress.annotations }}
   annotations:
