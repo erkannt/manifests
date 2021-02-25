@@ -89,7 +89,7 @@ spec:
           valueFrom:
             secretKeyRef:
               name:  {{ template "oauth2-proxy.secretName" . }}
-              key: cookie-secret
+              cookie-secret
         {{- end }}
         {{- if .Values.extraEnv }}
 {{ toYaml .Values.extraEnv | indent 8 }}
